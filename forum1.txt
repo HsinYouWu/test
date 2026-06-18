@@ -1,0 +1,34 @@
+forum = {
+    101: {
+        'title': 'Python',
+        'comments': {
+            1001: {
+                'author': 'Alice',
+                'likes': 10,
+                'replies': {
+                    10011: {
+                        'author': 'Bob',
+                        'likes': 5,
+                        'replies': {
+                            100111: {
+                                'author': 'Alice',
+                                'likes': 3,
+                                'replies': {}
+                            }
+                        }
+                    }
+                }
+            },
+            1002: {
+                'author': 'Charlie',
+                'likes': 2,
+                'replies': {}
+            }
+        }
+    },
+    102: {
+        'title': 'Statistics',
+        'comments': {}
+    }
+}
+
